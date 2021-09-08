@@ -7,7 +7,9 @@ Participants:
 - Member: [Name - ID]
 
 
-Trello / Jira table: https://trello.com/b/N0dTGGkV [Replace by your public board later]
+Task management table: https://trello.com/b/N0dTGGkV [Replace by your public board later]
+
+UI / UX prototype: https://www.figma.com/community/file/1017274846862703022 [Replace by your public prototype later]
 
 Tech stacks:
 
