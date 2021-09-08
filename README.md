@@ -33,3 +33,5 @@ This repository is the sample. For saving time, you can fork it and develop your
 - Folder Diagram: hold your .png files, those are diagrams that you need to submit quickly.
 
 - Folder Report: summary stuffs in a pdf file when you have done all things.
+
+- Folder References: contains all materials for weekly homework and final report.
