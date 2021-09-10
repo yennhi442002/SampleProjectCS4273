@@ -1,4 +1,3 @@
-
 import sqlite3
 import constant
 
@@ -30,8 +29,6 @@ def update_status(item, status):
     # Check if the passed status is a valid value
     if (status.lower().strip() == 'not started'):
         status = constant.NOTSTARTED
-    elif (status.lower().strip() == 'in progress'):
-        status = constant.INPROGRESS
     elif (status.lower().strip() == 'completed'):
         status = constant.COMPLETED
     else:

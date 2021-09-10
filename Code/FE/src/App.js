@@ -5,7 +5,7 @@ const App = (props) => {
   const [items, setItems] = useState([])
   const [currentItem, setCurrentItem] = useState("")
   useEffect(() => {
-    (readItem())
+    readItem()
   }, [])
 
   const readItem = () => {
@@ -102,7 +102,6 @@ const App = (props) => {
       <button onClick={() => addItem()}>Add</button>
       {
         items && items.map(item => {
-
           return <TodoItem
             onUpdate={() => updateItem(item[0], item[1])}
             onDelete={() => deleteItem(item[0])}

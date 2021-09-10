@@ -1,6 +1,7 @@
 import flask
 from flask import request, jsonify, Response
 import json
+from flask_ngrok import run_with_ngrok
 from flask_cors import CORS, cross_origin
 import pandas as pd
 import sqlite3
@@ -9,7 +10,7 @@ import service as service
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 CORS(app)
-
+run_with_ngrok(app)
 
 
 
@@ -73,5 +74,5 @@ def delete_item():
     response = Response(json.dumps(res_data), mimetype='application/json')
 
     return response
-
-app.run()
+if __name__ == '__main__':
+    app.run()
