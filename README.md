@@ -1,4 +1,4 @@
-# Sample for CS4273 class - final project
+# Document for CS4273 classes
 
 Participants:
 
