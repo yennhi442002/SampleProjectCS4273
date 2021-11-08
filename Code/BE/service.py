@@ -15,6 +15,8 @@ def add_to_list(item):
     except Exception as e:
         print('Error: ', e)
         return None
+
+
 def get_all_items():
     try:
         conn = sqlite3.connect(constant.DB_PATH)
@@ -25,6 +27,7 @@ def get_all_items():
     except Exception as e:
         print('Error: ', e)
         return None
+
 def update_status(item, status):
     # Check if the passed status is a valid value
     if (status.lower().strip() == 'not started'):

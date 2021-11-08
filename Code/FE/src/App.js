@@ -93,7 +93,7 @@ const App = (props) => {
 
   return (
     <div className="todo-list">
-      <h1> TO-DO LIST </h1>
+      <h1> Danh sách các cầu thủ </h1>
       <input value={currentItem} onChange={(event) => {
         setCurrentItem(event.target.value);
       }}
